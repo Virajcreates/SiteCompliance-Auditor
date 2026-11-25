@@ -1,0 +1,43 @@
+# Python Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Test Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Large Media & Runtime Storage Data
+backend/data/storage/*
+!backend/data/storage/.gitkeep
+/storage/
+/vector_index.json
+test_videos/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.m4a
+*.mp3
+*.wav
+
+# OS & IDE Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
